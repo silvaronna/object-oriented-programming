@@ -1,16 +1,20 @@
 #include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main() {
-    int number;
 
-    cout << "Enter a number: ";
-    cin >> number;
+double x, y;
 
-    number++;
-    number++;
+cout << "Enter x coordinate: ";
+cin >> x;
+cout << "Enter y coordinate: ";
+cin >> y;
+cout << "===========Result==========" << endl;
 
-    cout << "The incremented number is: " << number << endl;
 
-    return 0;
+int distancefromorigin = sqrt(x * x + y * y);
+
+cout << "Distance from origin: " << distancefromorigin << endl;
 }
