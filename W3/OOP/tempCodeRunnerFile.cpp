@@ -25,7 +25,7 @@ public:
         grade = g;
     }
 
-    // Display function 
+    // Display function
     void display() {
         cout << "=======Result=======" << endl;
         cout << "Student Name: " << firstname << " " << lastname << endl;
@@ -53,6 +53,3 @@ int main() {
 
     return 0;
 }
-
-
-// dummy text
