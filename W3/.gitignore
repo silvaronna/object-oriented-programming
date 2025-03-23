@@ -1,0 +1,9 @@
+# File object dan binary
+*.o
+*.exe
+*.out
+*.obj
+
+# Temp Code Runner
+
+tempCodeRunnerFile*
