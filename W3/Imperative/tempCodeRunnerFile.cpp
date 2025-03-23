@@ -2,23 +2,15 @@
 using namespace std;
 
 int main() {
+    int number;
 
-    int a, b;
-    cout << "Enter first numbers: ";
-    cin >> a;
-    cout << "Enter second numbers: ";
-    cin >> b;
-    cout << "===========Result==========" << endl;
+    cout << "Enter a number: ";
+    cin >> number;
 
-    int add = a + b;
-    int subtract = a - b;
-    int multiply = a * b;
-    double divide = (double)a / b;
+    number++;
+    number++;
 
-    cout << a << " + " << b << " = " << add << endl;
-    cout << a << " - " << b << " = " << subtract << endl;
-    cout << a << " x " << b << " = " << multiply << endl;
-    cout << a << " : " << b << " = " << divide << endl;
+    cout << "The incremented number is: " << number << endl;
+
     return 0;
-
 }
