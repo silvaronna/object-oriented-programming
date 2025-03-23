@@ -5,16 +5,16 @@ class Student {
 private:
     string firstname;
     string lastname;
-    int id;
-    char grade;
+    string id;
+    int grade;
 
 public:
     // Constructor Default
     Student() {
         firstname = "";
         lastname = "";
-        id = 0;
-        grade = ' ';
+        id = "";
+        grade = 0;
     }
 
     // Constructor dengan Parameter
@@ -28,8 +28,7 @@ public:
     // Display function
     void display() {
         cout << "=======Result=======" << endl;
-        cout << "Student first name: " << firstname << endl;
-        cout << "Student last name: " << lastname << endl;
+        cout << "Student Name: " << firstname << " " << lastname << endl;
         cout << "Student ID: " << id << endl;
         cout << "Student Grade: " << grade << endl;
     }
