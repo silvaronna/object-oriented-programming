@@ -2,16 +2,23 @@
 using namespace std;
 
 int main() {
-    int length, width;
-    cout << "Enter the length of the rectangle: ";
-    cin >> length;
-    cout << "Enter the width of the rectangle: ";
-    cin >> width;
-    cout << "========Result=======" << endl;
 
-    int area = length * width;
+    int a, b;
+    cout << "Enter first numbers: ";
+    cin >> a;
+    cout << "Enter second numbers: ";
+    cin >> b;
+    cout << "===========Result==========" << endl;
 
-    cout << "Area: " << area << endl;
+    int add = a + b;
+    int subtract = a - b;
+    int multiply = a * b;
+    double divide = (double)a / b;
 
+    cout << a << " + " << b << " = " << add << endl;
+    cout << a << " - " << b << " = " << subtract << endl;
+    cout << a << " x " << b << " = " << multiply << endl;
+    cout << a << " : " << b << " = " << divide << endl;
     return 0;
+
 }
